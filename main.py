@@ -2,7 +2,7 @@ import open3d as o3d
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-pcd=o3d.io.read_point_cloud("/home/xueruixiang/dataset/Ford_01_vox1mm-0100.ply") #orignal voxel size:1mm
+pcd=o3d.io.read_point_cloud("Ford_01_vox1mm-0100.ply") #orignal voxel size:1mm
 print("orignal point cloud:",pcd)
 
 #     preprocess:2 downsample method
